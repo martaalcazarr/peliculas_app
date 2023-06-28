@@ -1,0 +1,14 @@
+<h1>Series#new</h1>
+<p>Find me in app/views/series/new.html.erb</p>
+<%= form_with(model: @serie, url:series_path, local: true) do |form| %>
+  <%= form.label :name %>
+  <%= form.text_field :name %>
+
+  <%= form.label :synopsis %>
+  <%= form.text_area :synopsis %>
+
+  <%= form.label :director %>
+  <%= form.text_field :director %>
+
+  <%= form.submit "Guardar", formaction: series_create_path %>
+<% end %>

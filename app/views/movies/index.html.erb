@@ -1,0 +1,12 @@
+<h1>Movies#index</h1>
+
+<%= link_to 'Crear nueva película', new_movie_path %>
+<%= link_to 'Volver a la página de inicio', home_index_path %>
+
+<% @movies.each do |movie| %>
+  <h3><%= movie.name %></h3>
+  <p>Sinopsis: <%= movie.synopsis %></p>
+  <p>Director: <%= movie.director %></p>
+  <hr>
+<% end %>
+

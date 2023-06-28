@@ -1,0 +1,14 @@
+<h1>DocumentaryFilms#new</h1>
+<p>Find me in app/views/documentary_films/new.html.erb</p>
+<%= form_with(model: @documentary_film, url: documentary_films_path, local: true) do |form| %>
+  <%= form.label :name %>
+  <%= form.text_field :name %>
+
+  <%= form.label :synopsis %>
+  <%= form.text_area :synopsis %>
+
+  <%= form.label :director %>
+  <%= form.text_field :director %>
+
+  <%= form.submit "Guardar" %>
+<% end %>

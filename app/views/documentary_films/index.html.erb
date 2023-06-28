@@ -1,0 +1,11 @@
+<h1>DocumentaryFilms#index</h1>
+
+<%= link_to 'Crear nuevo documental', new_documentary_film_path %>
+<%= link_to 'Volver a la página de inicio', home_index_path %>
+
+<% @documentary_films.each do |documentary_film| %>
+  <h3><%= documentary_film.name %></h3>
+  <p>Sinopsis: <%= documentary_film.synopsis %></p>
+  <p>Director: <%= documentary_film.director %></p>
+  <hr>
+<% end %>
