@@ -1,0 +1,18 @@
+current directory: /vagrant/m5/desafio/peliculas_app/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+/home/vagrant/.rbenv/versions/3.2.0/bin/ruby -I /home/vagrant/.rbenv/versions/3.2.0/lib/ruby/3.2.0 extconf.rb
+creating Makefile
+
+current directory: /vagrant/m5/desafio/peliculas_app/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20230628-4785-ogwfuv sitelibdir\=./.gem.20230628-4785-ogwfuv clean
+
+current directory: /vagrant/m5/desafio/peliculas_app/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20230628-4785-ogwfuv sitelibdir\=./.gem.20230628-4785-ogwfuv
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /vagrant/m5/desafio/peliculas_app/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20230628-4785-ogwfuv sitelibdir\=./.gem.20230628-4785-ogwfuv install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20230628-4785-ogwfuv/skiptrace/internal
+
+current directory: /vagrant/m5/desafio/peliculas_app/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20230628-4785-ogwfuv sitelibdir\=./.gem.20230628-4785-ogwfuv clean

@@ -1,0 +1,25 @@
+current directory: /vagrant/m5/desafio/peliculas_app/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+/home/vagrant/.rbenv/versions/3.2.0/bin/ruby -I /home/vagrant/.rbenv/versions/3.2.0/lib/ruby/3.2.0 extconf.rb
+creating Makefile
+
+current directory: /vagrant/m5/desafio/peliculas_app/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230628-4785-hfdcro sitelibdir\=./.gem.20230628-4785-hfdcro clean
+make: Warning: File 'Makefile' has modification time 0.021 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /vagrant/m5/desafio/peliculas_app/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230628-4785-hfdcro sitelibdir\=./.gem.20230628-4785-hfdcro
+make: Warning: File 'Makefile' has modification time 0.0051 s in the future
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /vagrant/m5/desafio/peliculas_app/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230628-4785-hfdcro sitelibdir\=./.gem.20230628-4785-hfdcro install
+make: Warning: File 'debug.so' has modification time 0.0058 s in the future
+/usr/bin/install -c -m 0755 debug.so ./.gem.20230628-4785-hfdcro/debug
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /vagrant/m5/desafio/peliculas_app/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230628-4785-hfdcro sitelibdir\=./.gem.20230628-4785-hfdcro clean

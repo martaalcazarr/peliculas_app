@@ -1,0 +1,33 @@
+current directory: /vagrant/m5/desafio/peliculas_app/vendor/bundle/ruby/3.2.0/gems/puma-5.6.6/ext/puma_http11
+/home/vagrant/.rbenv/versions/3.2.0/bin/ruby -I /home/vagrant/.rbenv/versions/3.2.0/lib/ruby/3.2.0 extconf.rb
+checking for BIO_read() in -lcrypto... yes
+checking for SSL_CTX_new() in -lssl... yes
+checking for openssl/bio.h... yes
+checking for DTLS_method() in openssl/ssl.h... yes
+checking for TLS_server_method() in openssl/ssl.h... yes
+checking for SSL_CTX_set_min_proto_version(NULL, 0) in openssl/ssl.h... yes
+checking for X509_STORE_up_ref()... yes
+checking for SSL_CTX_set_ecdh_auto(NULL, 0) in openssl/ssl.h... yes
+checking for SSL_CTX_set_dh_auto(NULL, 0) in openssl/ssl.h... yes
+checking for SSL_get1_peer_certificate() in openssl/ssl.h... no
+checking for Random.bytes... yes
+creating Makefile
+
+current directory: /vagrant/m5/desafio/peliculas_app/vendor/bundle/ruby/3.2.0/gems/puma-5.6.6/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20230628-4785-r50ir4 sitelibdir\=./.gem.20230628-4785-r50ir4 clean
+
+current directory: /vagrant/m5/desafio/peliculas_app/vendor/bundle/ruby/3.2.0/gems/puma-5.6.6/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20230628-4785-r50ir4 sitelibdir\=./.gem.20230628-4785-r50ir4
+compiling http11_parser.c
+compiling mini_ssl.c
+compiling puma_http11.c
+linking shared-object puma/puma_http11.so
+
+current directory: /vagrant/m5/desafio/peliculas_app/vendor/bundle/ruby/3.2.0/gems/puma-5.6.6/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20230628-4785-r50ir4 sitelibdir\=./.gem.20230628-4785-r50ir4 install
+make: Warning: File 'puma_http11.so' has modification time 0.006 s in the future
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20230628-4785-r50ir4/puma
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /vagrant/m5/desafio/peliculas_app/vendor/bundle/ruby/3.2.0/gems/puma-5.6.6/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20230628-4785-r50ir4 sitelibdir\=./.gem.20230628-4785-r50ir4 clean
