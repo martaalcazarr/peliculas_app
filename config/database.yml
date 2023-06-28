@@ -85,3 +85,10 @@ development:
 #  username: userdb
 #  password: <%= ENV["MODELOS_RAILS_DATABASE_PASSWORD"] %>
 
+production:
+  <<: *default
+  database: moviesdb
+  username: userdb
+  password: ror2023
+  host: localhost
+  port: 5432
