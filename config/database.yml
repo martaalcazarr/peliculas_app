@@ -96,10 +96,11 @@ default: &default
   adapter: postgresql
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  host: containers-us-west-97.railway.app
-  port: 5908
+  host: containers-us-west-192.railway.app
+  port: 7208
   username: postgres
-  password: urmZSjH6gpucTUnpgmnQ
+  password: <%= ENV["PGPASSWORD"] %>
+
 
 development:
   <<: *default
